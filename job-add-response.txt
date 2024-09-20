@@ -1,0 +1,39 @@
+ 
+http://localhost:5000/api/job/addJob
+note: in com
+{
+  "title": "Aayushijob",
+  "about": "Entertainment",
+  "sallary": 50000,
+  "description": "Detailed job description.",
+  "skills": ["Ui/UX"],
+  "requirements": ["Bachelor's degree in Computer Science", "Experience with Java"],
+  "responsibilities": ["Develop software applications", "Collaborate with the team"],
+  "closeTime": "2024-10-20",
+  "company": "65ec530c3da2ceae87bd2076"
+}
+
+
+{
+    "success": true,
+    "data": {
+        "_id": "65ec530c3da2ceae87bd2076",
+        "name": "ABCDE Pvt. Ltd.",
+        "isAvatarImageSet": true,
+        "avatarImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Breezeicons-actions-22-im-user.svg/1200px-Breezeicons-actions-22-im-user.svg.png",
+        "isVerified": false,
+        "jobs": [
+            "65ed9147973a773417ba98d5",
+            "65ed9154973a773417ba98da",
+            "65ed9185973a773417ba98de"
+        ],
+        "__v": 2,
+        "about": "About the company",
+        "country": "United States",
+        "desc": "Description of the company",
+        "phone": "1234567890",
+        "region": "California",
+        "sector": "Technology"
+    },
+    "msg": "The Job was added successfully"
+}

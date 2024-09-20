@@ -1,0 +1,358 @@
+Register company 10 company
+[
+  {
+    "cname": "Company1",
+    "username": "Company1",
+    "email": "company1@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company2",
+    "username": "Company2",
+    "email": "company2@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company3",
+    "username": "Company3",
+    "email": "company3@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company4",
+    "username": "Company4",
+    "email": "company4@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company5",
+    "username": "Company5",
+    "email": "company5@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company6",
+    "username": "Company6",
+    "email": "company6@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company7",
+    "username": "Company7",
+    "email": "company7@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company8",
+    "username": "Company8",
+    "email": "company8@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company9",
+    "username": "Company9",
+    "email": "company9@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  },
+  {
+    "cname": "Company10",
+    "username": "Company10",
+    "email": "company10@gmail.com",
+    "password": "admin@123",
+    "type": "Company"
+  }
+]
+   Categories 
+
+List<Category> categories = [
+  Category(
+    title: "Technology",
+    description: "Explore opportunities in the rapidly evolving field of technology. Innovate and create solutions to drive progress.",
+    image: "https://www.training.com.au/wp-content/uploads/career-in-technology-feature.png",
+data:image/png;base64,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
+  ),
+  ),
+  Category(
+    title: "Health Care",
+    description: "Explore opportunities in the healthcare industry. Provide medical services and care to improve lives.",
+    image: "https://www.statnews.com/wp-content/uploads/2022/03/AdobeStock_246942922.jpeg",
+  ),
+  Category(
+    title: "Education",
+    description: "Empower learners and educators. Provide knowledge, skills, and development opportunities.",
+    image: "https://assets.thehansindia.com/h-upload/2022/06/14/1600x960_1297801-education-system.jpg",
+  ),
+  Category(
+    title: "Entertainment",
+    description: "Immerse yourself in the world of entertainment. Create captivating content and experiences for audiences.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtcDt9X-HeMsuWpjjl-nK4Yo4stYF4_dijg&usqp=CAU",
+  ),
+  Category(
+    title: "Real Estate",
+    description: "Facilitate property transactions. Buy, sell, lease, and manage real estate assets.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYvbFrWK1MxAmLPODPn9yiOzMPnCmUQKAKXw&usqp=CAU",
+  ),
+  Category(
+    title: "Skilled Helper",
+    description: "Explore opportunities for skilled workers. Provide essential services and expertise in various fields.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFIIc3dD36s8DXv_dDB4l1xmwPrCL34XfsYo2dqG9w-OAUhmHEOBtpKECKEM6F-rtsHc4&usqp=CAU",
+  ),
+  Category(
+    title: "Marketing",
+    description: "Develop strategies to promote products and services. Reach and engage target audiences effectively.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyP9mE9A07jknSRabmU-mp1C_0atLn5lhgw&usqp=CAU",
+  ),
+  Category(
+    title: "Financial Services",
+    description: "Navigate the complex world of finance. Manage funds, investments, and financial transactions.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZTeL4rk7tdlMrN8p6vxGriF4bT6_Cbgk1rg&usqp=CAU",
+  ),
+  Category(
+    title: "Hospitality",
+    description: "Welcome guests and travelers. Provide accommodations, dining, and leisure experiences.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJUp8hy6DbpY6tO-jj24enu3J-BfaWx9cAug&usqp=CAU",
+  ),
+  Category(
+    title: "Retail",
+    description: "Deliver products and services to consumers. Create memorable shopping experiences.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM1WcVRvIZq5HVH4sHzmvpLT2KGoRLYjV1QQ&usqp=CAU",
+  ),
+  Category(
+    title: "Manufacturing",
+    description: "Drive industrial production. Design, build, and deliver quality goods and equipment.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG_RjEn9SNN1MFMx6NUThwY1ZQmxImw6P6Wg&usqp=CAU",
+  ),
+  Category(
+    title: "Consulting",
+    description: "Provide expert advice and solutions to businesses. Help companies achieve their goals.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmCvRfNMzxaKmkylWvNLn3GKbQPxF_TF7rkQ&usqp=CAU",
+  ),
+  Category(
+    title: "Transportation",
+    description: "Connect people and goods. Provide efficient and reliable transportation solutions.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd_v2j-kOBKR54WZzxuGBMM__hgRLJK20v-w&usqp=CAU",
+  ),
+  Category(
+    title: "Media",
+    description: "Inform, entertain, and engage audiences. Produce and distribute news, content, and creative works.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScwpkJud6ViOjafXbNM7B8j-15zJwrBCoyLQ&usqp=CAU",
+  ),
+];
+
+
+
+
+
+
+
+
+Add job cover all category (ariund 20)
+[
+  {
+    "title": "UI/UX Designer",
+    "about": "Technology",
+    "salary": 80000,
+    "description": "Opportunity to become a UI/UX designer. Design intuitive and user-friendly interfaces.",
+    "skills": ["Figma", "HTML", "Hibernate"],
+    "requirements": ["Bachelor's degree in Computer Science", "Experience with HTML"],
+    "responsibilities": ["Design software applications", "Collaborate with development team"],
+    "closeTime": "2024-05-01",
+    "company": "65dab88b6a02956baaa46a4b"
+  },
+  {
+    "title": "Healthcare Data Analyst",
+    "about": "Health Care",
+    "salary": 75000,
+    "description": "Opportunity to work as a healthcare data analyst. Analyze and interpret medical data.",
+    "skills": ["SQL", "Data Analysis", "Healthcare domain knowledge"],
+    "requirements": ["Bachelor's degree in Health Informatics", "Experience with SQL"],
+    "responsibilities": ["Analyze healthcare data", "Generate insights for decision-making"],
+    "closeTime": "2024-05-15",
+    "company": "fa0769be6e746e0d8577e3d5"
+  },
+  {
+    "title": "Online Course Instructor",
+    "about": "Education",
+    "salary": 60000,
+    "description": "Opportunity to become an online course instructor. Share knowledge and empower learners.",
+    "skills": ["Teaching", "Online course development", "Subject matter expertise"],
+    "requirements": ["Master's degree in Education", "Experience in online teaching"],
+    "responsibilities": ["Develop online course materials", "Engage with students"],
+    "closeTime": "2024-06-01",
+    "company": "bbf7e5acca8994a9bd3019c4"
+  },
+  {
+    "title": "Game Developer",
+    "about": "Entertainment",
+    "salary": 90000,
+    "description": "Opportunity to work as a game developer. Create immersive and engaging gaming experiences.",
+    "skills": ["Unity", "C#", "Game design"],
+    "requirements": ["Bachelor's degree in Game Development", "Experience with Unity"],
+    "responsibilities": ["Develop game mechanics", "Implement game features"],
+    "closeTime": "2024-06-15",
+    "company": "a2c8ebde2fd6b344d946e123"
+  },
+  {
+    "title": "Real Estate Agent",
+    "about": "Real Estate",
+    "salary": 70000,
+    "description": "Opportunity to work as a real estate agent. Facilitate property transactions and assist clients.",
+    "skills": ["Negotiation", "Market analysis", "Customer service"],
+    "requirements": ["Real Estate License", "Experience in real estate"],
+    "responsibilities": ["Show properties to clients", "Negotiate contracts"],
+    "closeTime": "2024-07-01",
+    "company": "d5ebfe2a1ed9675bbf8b9c6f"
+  },
+  {
+    "title": "Electrician",
+    "about": "Skilled Helper",
+    "salary": 55000,
+    "description": "Opportunity to work as an electrician. Install and repair electrical systems.",
+    "skills": ["Electrical wiring", "Troubleshooting", "Safety procedures"],
+    "requirements": ["Certification in Electrical Engineering", "Experience as an electrician"],
+    "responsibilities": ["Install and repair electrical systems", "Ensure compliance with safety standards"],
+    "closeTime": "2024-07-15",
+    "company": "3f8dbd7e1c6a2d9b892b3e0d"
+  },
+  {
+    "title": "Digital Marketing Specialist",
+    "about": "Marketing",
+    "salary": 85000,
+    "description": "Opportunity to work as a digital marketing specialist. Develop and implement marketing strategies.",
+    "skills": ["SEO", "Social media marketing", "Content creation"],
+    "requirements": ["Bachelor's degree in Marketing", "Experience in digital marketing"],
+    "responsibilities": ["Optimize online presence", "Create marketing campaigns"],
+    "closeTime": "2024-08-01",
+    "company": "9e370b12db61f8e0732c4c9a"
+  },
+  {
+    "title": "Financial Analyst",
+    "about": "Financial Services",
+    "salary": 95000,
+    "description": "Opportunity to work as a financial analyst. Analyze financial data and provide insights.",
+    "skills": ["Financial modeling", "Risk analysis", "Data interpretation"],
+    "requirements": ["Bachelor's degree in Finance", "Experience in financial analysis"],
+    "responsibilities": ["Analyze financial data", "Provide investment recommendations"],
+    "closeTime": "2024-08-15",
+    "company": "8e1db59707d88a7e6e6b2047"
+  },
+  {
+    "title": "Hotel Manager",
+    "about": "Hospitality",
+    "salary": 80000,
+    "description": "Opportunity to work as a hotel manager. Oversee hotel operations and ensure guest satisfaction.",
+    "skills": ["Hospitality management", "Customer service", "Operations"],
+    "requirements": ["Bachelor's degree in Hospitality Management", "Experience in hotel management"],
+    "responsibilities": ["Oversee hotel operations", "Ensure guest satisfaction"],
+    "closeTime": "2024-09-01",
+    "company": "7e1621e4e7b6a6d8ba200ccb"
+  },
+  {
+    "title": "Retail Sales Associate",
+    "about": "Retail",
+    "salary": 50000,
+    "description": "Opportunity to work as a retail sales associate. Provide excellent customer service.",
+    "skills": ["Customer service", "Sales techniques", "Product knowledge"],
+    "requirements": ["High school diploma", "Experience in retail sales"],
+    "responsibilities": ["Assist customers", "Process transactions"],
+    "closeTime": "2024-09-15",
+    "company": "f4a9c10c5c5e1bdc50f3c780"
+  },
+  {
+    "title": "Manufacturing Engineer",
+    "about": "Manufacturing",
+    "salary": 90000,
+    "description": "Opportunity to work as a manufacturing engineer. Design and optimize production processes.",
+    "skills": ["CAD/CAM software", "Process optimization", "Quality control"],
+    "requirements": ["Bachelor's degree in Mechanical Engineering", "Experience in manufacturing"],
+    "responsibilities": ["Design production processes", "Ensure product quality"],
+    "closeTime": "2024-10-01",
+    "company": "c8d9eaf0f302ea4b9f3b19f7"
+  },
+  {
+    "title": "Business Consultant",
+    "about": "Consulting",
+    "salary": 100000,
+    "description": "Opportunity to work as a business consultant. Provide expert advice to clients.",
+    "skills": ["Strategic planning", "Market analysis", "Problem-solving"],
+    "requirements": ["Master's degree in Business Administration", "Experience in consulting"],
+    "responsibilities": ["Analyze business operations", "Recommend improvement strategies"],
+    "closeTime": "2024-10-15",
+    "company": "68c8d9eaf0f302ea4b9f3b19"
+  },
+  {
+    "title": "Transportation Coordinator",
+    "about": "Transportation",
+    "salary": 70000,
+    "description": "Opportunity to work as a transportation coordinator. Coordinate logistics and shipments.",
+    "skills": ["Logistics management", "Communication", "Problem-solving"],
+    "requirements": ["Bachelor's degree in Supply Chain Management", "Experience in transportation"],
+    "responsibilities": ["Coordinate transportation operations", "Ensure timely deliveries"],
+    "closeTime": "2024-11-01",
+    "company": "19e5d5c40e3c62c34a7b8541"
+  },
+  {
+    "title": "Journalist",
+    "about": "Media",
+    "salary": 75000,
+    "description": "Opportunity to work as a journalist. Report news and stories for various media platforms.",
+    "skills": ["News writing", "Investigative journalism", "Interviewing"],
+    "requirements": ["Bachelor's degree in Journalism", "Experience in journalism"],
+    "responsibilities": ["Research and report news stories", "Conduct interviews"],
+    "closeTime": "2024-11-15",
+    "company": "ee5d5c40e3c62c34a7b85419"
+  },
+  {
+    "title": "Software Developer",
+    "about": "Technology",
+    "salary": 85000,
+    "description": "Opportunity to work as a software developer. Design and develop software applications.",
+    "skills": ["Java", "JavaScript", "Database management"],
+    "requirements": ["Bachelor's degree in Computer Science", "Experience in software development"],
+    "responsibilities": ["Write code", "Test and debug software"],
+    "closeTime": "2024-12-01",
+    "company": "f5d5c40e3c62c34a7b85419e"
+  },
+  {
+    "title": "Dentist",
+    "about": "Health Care",
+    "salary": 120000,
+    "description": "Opportunity to work as a dentist. Provide dental care and treatment to patients.",
+    "skills": ["Dentistry", "Patient care", "Oral surgery"],
+    "requirements": ["Doctor of Dental Surgery degree", "Dentist license"],
+    "responsibilities": ["Examine and treat dental issues", "Perform dental procedures"],
+    "closeTime": "2024-12-15",
+    "company": "b5d5c40e3c62c34a7b8541f"
+  },
+  {
+    "title": "Financial Advisor",
+    "about": "Financial Services",
+    "salary": 110000,
+    "description": "Opportunity to work as a financial advisor. Provide financial planning and investment advice.",
+    "skills": ["Financial planning", "Investment management", "Retirement planning"],
+    "requirements": ["Certified Financial Planner designation", "Experience in financial advising"],
+    "responsibilities": ["Assess client financial situations", "Develop personalized financial plans"],
+    "closeTime": "2025-01-01",
+    "company": "a5d5c40e3c62c34a7b8541g"
+  },
+  {
+    "title": "Executive Chef",
+    "about": "Hospitality",
+    "salary": 100000,
+    "description": "Opportunity to work as an executive chef. Lead kitchen operations and culinary team.",
+    "skills": ["Culinary arts", "Menu planning", "Kitchen management"],
+    "requirements": ["Culinary degree", "Experience as a chef"],
+    "responsibilities": ["Create menus", "Oversee food preparation"],
+    "closeTime": "2025-01-15",
+    "company": "d5d5c40e3c62c34a7b8541h"
+  }
+]
